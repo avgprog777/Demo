@@ -6,6 +6,7 @@ namespace Demo.Controllers
 {
     //added a feature branch for home controller    
     //added 2nd comment
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
