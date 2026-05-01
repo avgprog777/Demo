@@ -1,42 +1,89 @@
-# Ignore Visual Studio temporary files
+# Ignore node modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore build folder
+dist/
+## Build results
+bin/
+obj/
+
+## Visual Studio files
 .vs/
+*.user
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Logs
+*.log
+
+## NuGet
 # Ignore NuGet packages
 *.nupkg
-# Ignore build outputs
-[Dd]ebug/**
-[Rr]elease/**
-[Bb]in/**
-[Oo]bj/**
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# Ignore dependency directories
-packages/**
+## .NET Core
+project.assets.json
+*.runtimeconfig.dev.json
 
-# Ignore user preferences
-*.dotSettings
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 
-# Ignore test coverage files
-coverage/**
+## IIS Express
+iisexpress/
+*.vspscc
+*.vssscc
 
-# Ignore database files
+## OS files
+.DS_Store
+Thumbs.db
+
+## Publish output
+publish/
+*.pubxml
+*.publishproj
+
+## Entity Framework
+*.edmx.diagram
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Azure
+*.azurePubxml
+
+## Secrets
+appsettings.Development.json
+secrets.json
+
+## SQL Server
 *.mdf
 *.ldf
-*.sqlite
 
-# Ignore certificate files
-*.pfx
-*.p12
-*.cer
-
-# Ignore local configuration files
-appsettings.Development.json
-appsettings.*.json
-
-# Ignore common IDE temporary files
+## Backup & temp files
+*.bak
 *.tmp
 *.temp
 *.bak
