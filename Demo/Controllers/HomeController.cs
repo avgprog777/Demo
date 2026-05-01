@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Controllers
 {
+    //add new comment 2
     //added a feature branch for home controller    
     //added 2nd comment
     public class HomeController : Controller
