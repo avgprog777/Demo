@@ -8,7 +8,7 @@ namespace Demo.Controllers
     //added a feature branch for home controller    
     //added 2nd comment
     //added 3rd comment
-    //4th comment
+    //4th comment added
     public class HomeController : Controller
     {
         //add
