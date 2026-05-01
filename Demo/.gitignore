@@ -17,6 +17,7 @@ obj/
 .vs/
 *.user
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
@@ -28,6 +29,7 @@ obj/
 *.log
 
 ## NuGet
+# Ignore NuGet packages
 *.nupkg
 packages/
 .nuget/
@@ -84,3 +86,5 @@ secrets.json
 *.bak
 *.tmp
 *.temp
+*.bak
+*.swp
