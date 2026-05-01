@@ -8,6 +8,7 @@ namespace Demo.Controllers
     //added 2nd comment
     public class HomeController : Controller
     {
+        //add
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
